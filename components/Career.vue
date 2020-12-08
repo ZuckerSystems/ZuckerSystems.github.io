@@ -2,7 +2,7 @@
   <div>
     <div>
       <h2>Way of life</h2>
-      <p>年の部分の背景透明にしているけど初期のparallax背景画像をスクロールして持ってくるのはなんで？Vuetify側の問題ぽいので放置。</p>
+      <p>作成中</p>
     </div>
     <div>
       <v-timeline>
