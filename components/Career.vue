@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div>
+    <div class="mx-2">
       <h2>Way of life</h2>
       <p>作成中</p>
     </div>
-    <div>
-      <v-timeline>
+    <div class="mx-2">
+      <v-timeline align-top dense>
         <v-timeline-item v-for="(year, i) in years" :key="i" :color="year.color" small>
           <template v-slot:opposite>
             <span :class="`headline font-weight-bold ${year.color}--text`" v-text="year.year"></span>
